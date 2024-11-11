@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
         
-        <div class="navbar bg-base-100">
+  <div class="navbar bg-base-100 fixed top-0 w-full z-20 mt-auto">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -26,12 +26,12 @@ const Header = () => {
       <ul
         tabindex="0"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li className="text-lg text-blue-700 font-bold"><a><FaHome /> Home</a> </li>
-        <li className="text-lg text-blue-700 font-bold"><a><FaUser />About</a></li>
-        <li className="text-lg text-blue-700 font-bold"><a><FaTasks /> Skills</a></li>
-        <li className="text-lg text-blue-700 font-bold"><a><FaBriefcase /> Work</a></li>
-        <li className="text-lg text-blue-700 font-bold"><a><FaBlog /> Blog</a></li>
-        <li className="text-lg text-blue-700 font-bold"><a><FaEnvelope /> Contact</a></li>
+        <li className="text-lg text-blue-700 font-bold"><NavLink to={"/"}><FaHome /> Home </NavLink></li>
+        <li className="text-lg text-blue-700 font-bold"><NavLink to={"/about"}><FaUser />About</NavLink></li>
+        <li className="text-lg text-blue-700 font-bold"><NavLink to={"/skills"}><FaTasks /> Skills</NavLink></li>
+        <li className="text-lg text-blue-700 font-bold"><NavLink to={"/works"}><FaBriefcase /> Work</NavLink></li>
+        <li className="text-lg text-blue-700 font-bold"> <NavLink to={"/blog"}><FaBlog /> Blog</NavLink></li>
+        <li className="text-lg text-blue-700 font-bold"><NavLink to={"/contact"}><FaEnvelope /> Contact</NavLink></li>
         
       </ul>
     </div>
