@@ -9,7 +9,7 @@ const Contact = () => {
                 <title>Sourav | Contact</title>
             </Helmet>
             
-<div class="max-w-screen-xl mx-auto my-7 lg:px-20 mt-20" id="contact">
+<div class="max-w-screen-xl mx-auto lg:px-20 pt-10" id="contact">
   <form action="" method="post">
     <div class="w-full p-8 my-4 mr-auto shadow-2xl md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 rounded-2xl">
       <div class="flex">

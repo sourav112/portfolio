@@ -7,7 +7,7 @@ const about = () => {
              <Helmet>
                 <title>Sourav | About</title>
             </Helmet>
-  <div className="container mx-auto px-8 py-32">
+  <div className="container mx-auto px-8 pt-28">
   <div className="relative wrap overflow-hidden">
     <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2" />
     <div className="mb-8 flex justify-between items-center w-full right-timeline">

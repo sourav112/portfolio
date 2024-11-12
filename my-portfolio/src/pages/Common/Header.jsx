@@ -30,7 +30,7 @@ const Header = () => {
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/about"}><FaUser />About</NavLink></li>
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/skills"}><FaTasks /> Skills</NavLink></li>
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/works"}><FaBriefcase /> Work</NavLink></li>
-        <li className="text-lg text-blue-700 font-bold"> <NavLink to={"/blog"}><FaBlog /> Blog</NavLink></li>
+       {/**  <li className="text-lg text-blue-700 font-bold"> <NavLink to={"/blog"}><FaBlog /> Blog</NavLink></li> */}
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/contact"}><FaEnvelope /> Contact</NavLink></li>
         
       </ul>
@@ -42,7 +42,7 @@ const Header = () => {
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/about"}><FaUser />About</NavLink></li>
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/skills"}><FaTasks /> Skills</NavLink></li>
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/works"}><FaBriefcase /> Work</NavLink></li>
-        <li className="text-lg text-blue-700 font-bold"> <NavLink to={"/blog"}><FaBlog /> Blog</NavLink></li>
+        {/** <li className="text-lg text-blue-700 font-bold"> <NavLink to={"/blog"}><FaBlog /> Blog</NavLink></li> */}
         <li className="text-lg text-blue-700 font-bold"><NavLink to={"/contact"}><FaEnvelope /> Contact</NavLink></li>
     </ul>
   </div>
