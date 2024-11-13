@@ -36,25 +36,25 @@ const Contact = () => {
   </form>
   <div class="w-full px-8 py-12 ml-auto bg-[#1B6485] lg:-mt-96 lg:w-2/6 rounded-2xl">
     <div class="flex flex-col text-white">
-      <div class="flex w-2/3 my-4 lg:w-1/2">
+      <div class="flex w-2/3 my-4 lg:w-5/6">
         <FaHome class="pt-2 pr-2 h-7 w-7 " />
         <div>
           <h2 class="text-2xl">Office</h2>
           <p class="text-gray-200" >Chittagong, Bangladesh</p>
         </div>
       </div>
-      <div class="flex w-2/3 my-4 lg:w-1/2">
+      <div class="flex w-2/3 my-4 lg:w-5/6">
       <FaPhone class="pt-2 pr-2 h-7 w-7 " />
         <div>
           <h2 class="text-2xl">Call</h2>
-          <p class="text-gray-200" >Tel:+880-18-12-37-55-34</p>
+          <p class="text-gray-200" >+880-1812-375534</p>
         </div>
       </div>
-      <div class="flex w-2/3 my-4 lg:w-1/2">
+      <div class="flex w-2/3 my-4 lg:w-5/6">
       <FaEnvelope class="pt-2 pr-2 h-7 w-7 " />
         <div>
           <h2 class="text-2xl">Email</h2>
-          <p class="text-gray-200" >Email:pdoict</p>
+          <p class="text-gray-200" >engrsourav112@gmail.com</p>
         </div>
       </div>
     </div>

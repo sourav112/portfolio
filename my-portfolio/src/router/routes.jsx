@@ -8,6 +8,7 @@ import Blogpage from "../pages/Blogpage";
 import Skillpage from "../pages/Skillpage";
 import Workpage from "../pages/Workpage";
 import Contact from "../pages/Contact";
+import Workingplacepage from "../pages/Workingplacepage";
 
 const router=createBrowserRouter([
     {
@@ -38,6 +39,10 @@ const router=createBrowserRouter([
             {
                 path:`/contact`,
                 element:<Contact/>
+            },
+            {
+                path:`/places`,
+                element:<Workingplacepage/>
             },
             
 
